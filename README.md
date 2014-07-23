@@ -16,11 +16,11 @@ As informações serão apresentadas no vidro do carro utilizando realidade aume
 A sua empresa está na vanguarda da tecnologia e foi contratada para desenhar o protótipo desta interface, por forma a que o condutor consulte toda esta informação de forma integrada sem tirar os olhos da estrada. 
 
 Objectivo
- -
+-
 Desenvolver um protótipo com uma interface utilizador do tipo HUD para um automóvel que permita aos ocupantes da viatura aceder às suas funcionalidades de forma eficiente, eficaz e agradável.
 
 Requisitos/Restrições
- -
+-
 A aplicação deve simular a área do vidro do carro em frente ao condutor e tem no máximo 4 botões físicos que ficarão no volante.
 
 
