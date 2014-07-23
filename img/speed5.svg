@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Artboard 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" stroke="#000000" stroke-width="2">
+            <g id="speedometer" sketch:type="MSLayerGroup" transform="translate(1.000000, 2.000000)">
+                <path d="M90.2785265,73.4621849 C88.3111009,69.8151261 84.1231724,67.4448857 84.1231724,67.4448857 L131.31422,50.0168067 L92.2459521,82.3193277 C92.2459521,82.3193277 92.245952,77.1092437 90.2785265,73.4621849 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M65.6571102,79.9747899 C65.6571102,87.3085042 71.5071972,93.2605042 78.7372376,93.2605042 C85.967278,93.2605042 91.817365,87.3085042 91.817365,79.9747899 C91.817365,72.6377542 85.967278,66.6890756 78.7372376,66.6890756 C71.5071972,66.6890756 65.6571102,72.6410756 65.6571102,79.9747899 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M157.474475,79 L147.728498,79" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M0,79 L9.74597729,79" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M78,0 L78,9.89915966" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M39.4968553,10.4201681 L44.6263171,18.7563025" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M146.702606,119.831933 L138.495467,114.621849" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M10.7718696,39.5966387 L18.9790084,44.8067227" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M10.7718696,119.831933 L18.9790084,114.621849" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M146.702606,39.5966387 L138.495467,44.8067227" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M118.490566,10.4201681 L113.361104,18.7563025" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

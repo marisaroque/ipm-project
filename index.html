@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>KITT - O carro do futuro</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,400italic,600,600italic,700,700italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fonts/titillium-web/stylesheet.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/odometer-theme-car.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body class="kitt">
+    <div class="wrap open" data-level=-1 data-index=0>
+
+        <div class="hud1">
+            <div class="gps box" data-level=0 data-index=0 id="gps">
+                <h1>GPS</h1>
+                <div class="box-content">
+                    <i class="fa fa-arrow-right"></i>
+                    <p>Virar direita</p>
+                    <p>800m</p>
+                    <p>ETA</p>
+                    <p>0:37</p>
+                </div>
+                <div class="box-content-more">
+                    <h2 data-level=1 data-index=0>GPS</h2>
+                </div>
+            </div>
+            <!-- /gps -->
+
+            <div class="info box" data-level=0 data-index=1 id="info">
+                <h1>Info</h1>
+                <div class="box-content">
+                    <i class="fa fa-calendar"></i> 
+                    <div id="clock">Clock</div>
+
+                    <i class="fa fa-sun-o"></i>
+                    <p>26ºC</p>
+                </div>
+                <div class="box-content-more">
+                   <h2 data-level=1 data-index=0>Info</h2>                  
+                </div>
+            </div>
+            <!-- /info -->
+
+            <div class="phone box" data-level=0 data-index=2 id="phone">
+                <h1>Pessoas</h1>
+                <div class="box-content">
+                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-phone"></i>
+                    <p>Mãe:</p><span>CASA</span>
+                </div>
+                <div class="box-content-more">
+
+                <h2>Lista de contactos</h2>
+                    <ul>
+                        <li data-level=1 data-index=0>Familia (4)</li>
+                        <li data-level=1 data-index=1>Amigos (8)</li>
+                        <li data-level=1 data-index=2 id="work-button">Colegas trabalho (3)
+                            <!-- <ul>
+                                <li>Sara Santos</li>
+                                <li>Marisa Roque</li>
+                                <li>Mariana Fernandes</li>
+                            </ul> -->
+                        </li>
+                        <li data-level=1 data-index=3>Colegas futebol (8)</li>
+                    </ul>
+                </div>
+                <div class="box-content-hidden" id="work">
+                </div>
+            </div>
+            <!-- /phone -->
+        </div><!-- /hud1 -->
+        
+
+        <div class="hud2">
+
+            <div class="circle">
+                <h1><span id="velocity">95.0</span>km/h</h1>
+                <div id="odometer" class="odometer">39245</div>
+            </div>
+            <div id="svganim" class="circle">
+                <svg width="160px" height="160px" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                        <g id="Artboard-1" sketch:type="MSArtboardGroup" stroke="#000000" stroke-width="3">
+                            <g id="speedometer" sketch:type="MSLayerGroup" transform="rotate(30, 80, 80),translate(1.000000, 2.000000)">
+                                <path d="M90.2785265,73.4621849 C88.3111009,69.8151261 84.1231724,67.4448857 84.1231724,67.4448857 L131.31422,50.0168067 L92.2459521,82.3193277 C92.2459521,82.3193277 92.245952,77.1092437 90.2785265,73.4621849 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                                <path d="M65.6571102,79.9747899 C65.6571102,87.3085042 71.5071972,93.2605042 78.7372376,93.2605042 C85.967278,93.2605042 91.817365,87.3085042 91.817365,79.9747899 C91.817365,72.6377542 85.967278,66.6890756 78.7372376,66.6890756 C71.5071972,66.6890756 65.6571102,72.6410756 65.6571102,79.9747899 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+
+                            </g>
+                            <path d="M157.474475,79 L147.728498,79" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M0,79 L9.74597729,79" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M78.5,0 L78.5,9.89915966" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M39.4968553,10.4201681 L44.6263171,18.7563025" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M146.702606,119.831933 L138.495467,114.621849" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.7718696,39.5966387 L18.9790084,44.8067227" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M10.7718696,119.831933 L18.9790084,114.621849" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M146.702606,39.5966387 L138.495467,44.8067227" id="Shape" sketch:type="MSShapeGroup"></path>
+                            <path d="M118.490566,10.4201681 L113.361104,18.7563025" id="Shape" sketch:type="MSShapeGroup"></path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="empty"></div>
+
+            <div class="status box" data-level=0 data-index=3 id="status">
+
+                <h1>Estado</h1>
+                <i id="warning" class="fa fa-exclamation-triangle"></i>
+                <div class="box-content">
+                    <p><img src="img/fuel.png">75%</p>
+                    <p>Mudança 3</p>
+                    <p>5.8 L/100km</p>
+                </div>
+
+                <div id="buttons1" class="box-content-more">
+                    <button data-level=1 data-index=0 class="box-content-more-item" type="button" id="fluids">Níveis de Fluídos</button>
+                    <button data-level=1 data-index=1 class="box-content-more-item" type="button" id="traccao-button">Sistema de Tracção</button>
+                    <button data-level=1 data-index=2 class="box-content-more-item" type="button" id="break-button">Sistema de Travagem</button>
+                    <button data-level=1 data-index=3 class="box-content-more-item" type="button" id="electricity-button">Sistema Eléctrico</button>
+                    <button data-level=1 data-index=4 class="box-content-more-item" type="button" id="statistics-button">Estatísticas Veículo</button>
+                    <button data-level=1 data-index=5 class="box-content-more-item" type="button" id="maintenance-button">Calendário Manutenção</button>
+                </div>
+
+                <div id="buttons2" class="box-content-more">
+                    <h1>Avaria Grave</h1>
+                    <p>Deseja Contactar a sua seguradora?</p>
+                    <button data-level=1 data-index=0 id="insurance-yes-button">Sim</button>
+                    <button data-level=1 data-index=1 id="insurance-no-button">Não</button>
+                </div>
+
+                <div class="metrics box-content-hidden" id="fluids-level">
+                    <h1>Níveis de Fluídos</h1>
+
+                            <div>
+                                <div class="fluid-empty">
+                                    <div class="fill uno"></div>
+                                    <span>50%</span>                                
+                                </div>
+                                <!-- <p>Óleo dos Travões</p> -->
+                            </div>
+                            
+                            <div class="fluid-empty">
+                                <div class="fill dos"></div>
+                                <span>25%</span>
+                            </div>
+                            <!-- <p>Óleo da Transimissão</p> -->
+                            
+                            <div class="fluid-empty">
+                                <div class="fill tres"></div>
+                                <span>75%</span>
+                            </div>
+                            <!-- <p>Combustível</p> -->
+                             
+                            <div class="fluid-empty">
+                                <div class="fill quatro"></div>
+                                <span>43%</span>
+                            </div>
+                            <!-- <p>Líquido de lavagem</p> -->
+                            <div class="fluid-empty">
+                                <div class="fill dos"></div>
+                                <span>23%</span>
+                            </div>
+                </div>
+                <div class="metrics box-content-hidden" id="traccao">
+                    <h1>Sistema de Tracção</h1>
+                </div>
+                <div class="metrics box-content-hidden" id="break">
+                    <h1>Sistema de Travagem</h1>
+                </div>
+                <div class="metrics box-content-hidden" id="electricity">
+                    <h1>Sistema Eléctrico</h1>
+                </div>
+                <div class="metrics box-content-hidden" id="statistics">
+                    <h1>Estatísticas do Veículo</h1>
+                </div>
+                <div class="metrics box-content-hidden" id="maintenance">
+                    <h1>Calendário de Manutenção</h1>
+                </div>
+
+                <div class="metrics box-content-hidden" id="insurance-yes">
+                    <div class="spinner">
+                        <div></div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /status -->
+
+            <div class="media box" data-level=0 data-index=4 id="media">
+                <h1>Multimédia</h1>
+                <div class="box-content">
+                    <p><i class="fa fa-music"></i>
+                        <span id="song-title">Senhor Vinho</span>
+                    </p>
+                    <p><i class="fa fa-smile-o"></i>
+                        <span id="song-author">Mariza</span>
+                    </p>
+                </div>
+                <div class="box-content-more">
+                    <div id="player-controls">
+                        <div id="play" data-level=1 data-index=0><i class="fa fa-play"></i>
+                        </div>
+                        <div id="pause" data-level=1 data-index=1><i class="fa fa-pause"></i>
+                        </div>
+                        <div id="stop" data-level=1 data-index=2><i class="fa fa-stop"></i>
+                        </div>
+                        <div id="next" data-level=1 data-index=3><i class="fa fa-fast-forward"></i>
+                        </div>
+                        <div id="previous" data-level=1 data-index=4><i class="fa fa-fast-backward"></i>
+                        </div>
+                    </div>
+                    <div id="player-progress">
+                        <progress id="progress" value="22" max="100"></progress>
+                            <span id="time"></span>/
+                            <span id="duration"></span>
+                    </div>
+                    <div id="player-volume">
+                        <div id="volume-mute" data-level=1 data-index=5><i class="fa fa-volume-off"></i>
+                        </div>
+                        <div id="volume-down" data-level=1 data-index=6><i class="fa fa-volume-down"></i>
+                        </div>
+                        <div id="volume-up" data-level=1 data-index=7><i class="fa fa-volume-up"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /media -->
+
+            <div class="environment box" data-level=0 data-index=5 id="environment">
+                <h1>Ambiente</h1>
+                <div class="box-content">
+                    <p>
+                        <img src="img/temperature1.png">18ºC
+                    </p>
+                    <p>
+                        <img src="img/temperature2.png">24ºC</p>
+                    <p><i class="fa fa-asterisk"></i>OFF</p>
+                </div>
+                <div class="box-content-more">
+                    <h2 data-level=1 data-index=0>Ambiente</h2> 
+                </div>
+
+            </div>
+            <!-- /environment -->
+
+            <div class="settings box" data-level=0 data-index=6 id="settings">
+                <h1>Definições</h1>
+                <div class="box-content">
+                    <p><i class="fa fa-user"></i>Pedro Dias</p>
+                    <p><i class="fa fa-question"></i>Ajuda</p>
+                </div>
+
+                <div id="checkboxes" class="box-content-more">
+
+                    <ul class="settings">
+                        <li>
+                            <input type="checkbox" data-level=1 data-index=0 id="check-1" type="checkbox">
+                            <label tabindex="1" for="check-1" class="checkbox-label">GPS</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" data-level=1 data-index=1 id="check-2" type="checkbox">
+                            <label tabindex="2" for="check-2" class="checkbox-label">Info</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" data-level=1 data-index=2 id="check-3" type="checkbox">
+                            <label tabindex="3" for="check-3" class="checkbox-label">Pessoas</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" data-level=1 data-index=3 id="check-4" type="checkbox">
+                            <label tabindex="4" for="check-4" class="checkbox-label">Estado</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" data-level=1 data-index=4 id="check-5" type="checkbox">
+                            <label tabindex="5" for="check-5" class="checkbox-label">Multimédia</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" data-level=1 data-index=5 id="check-6" type="checkbox">
+                            <label tabindex="6" for="check-6" class="checkbox-label">Ambiente</label>
+                        </li>
+
+                    </ul>
+                    <!-- <button type="button">Mudar Utilizador</button>
+                            <button type="button">Apagar Utilizador</button>
+                            <button type="button">Repor</button>
+                            <button type="button">Guardar</button>-->
+                    <button type="button" data-level=1 data-index=6 id="help-button">Ajuda</button>
+                </div>
+
+                <div class="box-content-hidden" id="help">
+                    <h1>Ajuda</h1>
+                    <!-- <p>Para navegar utilize as teclas:</p> -->
+                    <ul>
+                        <li><kbd>→</kbd>mover direita/baixo</li> 
+                        <li><kbd>←</kbd>mover esquerda/cima</li>
+                        <li><kbd>&crarr;</kbd>entrar/seleccionar</li>
+                        <li><kbd>Esc</kbd>sair/voltar atrás</li>
+                    </ul>
+                    <div>
+
+                    </div>
+                </div>
+                <!-- /settings -->
+            </div>
+            <!-- /hud2 -->
+
+        </div><!-- /hud2 -->
+    </div><!-- /wrap -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/keynav.js" type="text/javascript"></script>
+        <script src="js/jquery.backgroundvideo.min.js"></script>
+        <script src="js/jquery.svg.js" type="text/javascript"></script>
+        <script src="js/svganim.js" type="text/javascript"></script>
+        <script src="js/odometer.js" type="text/javascript"></script>
+        <script src="js/clock.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
