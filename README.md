@@ -38,5 +38,5 @@ Teclas especiais:
 
 Atenção
 -
-O nosso protótipo encontra-se totalmente e exclusivamente optimizado para funcionar na última versão do Google Chrome, com uma resolução mínima de 1131 x 694.
+O nosso protótipo - que não se encontra totalmente acabado por ser apenas um protótipo - encontra-se totalmente e exclusivamente optimizado para funcionar na última versão do Google Chrome, com uma resolução mínima de 1131 x 694.
 
