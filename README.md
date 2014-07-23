@@ -5,7 +5,6 @@ Project assignment for the Human-Machine Interface course.
 
 LEIC-T # 2013/2014
 www.tecnico.ulisboa.pt/ 
-- - -
 
 Projecto
 -
@@ -38,6 +37,7 @@ Teclas para realizar as tarefas:
 **esc**: serve para retroceder nos menus ou para sair. Caso se esteja num sub-menu retorna para o menu anterior.
 
 Teclas especiais:
+
 **w**: simula uma avaria no sistema, lançando um aviso no menu do Estado.
 
 Atenção
