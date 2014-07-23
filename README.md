@@ -29,18 +29,18 @@ Descrição das teclas utilizadas
 
 Teclas para realizar as tarefas:
 
--> (seta para a direita): serve para navegar nos menus. Caso o menu seja horizontal a direcção é para a direita, caso o menu seja vertical a direcção é para baixo.
+**-> (seta para a direita)**: serve para navegar nos menus. Caso o menu seja horizontal a direcção é para a direita, caso o menu seja vertical a direcção é para baixo.
 
-<- (seta para a esquerda): serve para navegar nos menus. Caso o menu seja horizontal a direcção é para a esquerda, caso o menu seja vertical a direcção é para cima.
+**<- (seta para a esquerda)**: serve para navegar nos menus. Caso o menu seja horizontal a direcção é para a esquerda, caso o menu seja vertical a direcção é para cima.
 
-enter: serve para seleccionar uma opção, no caso dos menus entra no respectivo sub-menu, no caso de opções serve para activar ou desactivar a respectiva opção.
+**enter**: serve para seleccionar uma opção, no caso dos menus entra no respectivo sub-menu, no caso de opções serve para activar ou desactivar a respectiva opção.
 
-esc: serve para retroceder nos menus ou para sair. Caso se esteja num sub-menu retorna para o menu anterior.
+**esc**: serve para retroceder nos menus ou para sair. Caso se esteja num sub-menu retorna para o menu anterior.
 
 Teclas especiais:
-w: simula uma avaria no sistema, lançando um aviso no menu do Estado.
+**w**: simula uma avaria no sistema, lançando um aviso no menu do Estado.
 
 Atenção
 -
-O nosso protótipo encontra-se totalmente e exclusivamente optimizado para funcionar no Google Chrome, com uma resolução mínima de 1131 x 694.
+O nosso protótipo encontra-se totalmente e exclusivamente optimizado para funcionar na última versão do Google Chrome, com uma resolução mínima de 1131 x 694.
 
