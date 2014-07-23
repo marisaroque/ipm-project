@@ -16,7 +16,7 @@ A sua empresa está na vanguarda da tecnologia e foi contratada para desenhar o 
 
 Objectivo
 -
-Desenvolver um protótipo com uma interface utilizador do tipo HUD para um pára-brisas que permita aos ocupantes da viatura aceder às suas funcionalidades de forma eficiente, eficaz e agradável.
+Desenvolver um protótipo de uma interface utilizador do tipo HUD para um pára-brisas que permita aos ocupantes da viatura aceder às suas funcionalidades de forma eficiente, eficaz e agradável, apenas com recurso a 4 botões.
 
 
 Descrição das teclas utilizadas
