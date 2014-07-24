@@ -1,7 +1,5 @@
 @charset "UTF-8";
-/* Variables */
-/* Mixins */
-/* Resets */
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
