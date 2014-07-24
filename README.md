@@ -36,6 +36,10 @@ Teclas especiais:
 
 **w**: simula uma avaria no sistema, lançando um aviso no menu do Estado.
 
+Manual do utilizador
+-
+Encontra-se disponível [aqui](ipm-project/userManual.pdf).
+
 Atenção
 -
 O nosso protótipo - que não se encontra totalmente acabado por ser apenas um protótipo - encontra-se total e exclusivamente optimizado para funcionar na última versão do Google Chrome, com uma resolução mínima de 1131 x 694.
