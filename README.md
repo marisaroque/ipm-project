@@ -38,7 +38,7 @@ Teclas especiais:
 
 Manual do utilizador
 -
-Encontra-se disponível [aqui](ipm-project/userManual.pdf).
+Encontra-se disponível [aqui](https://github.com/marisaroque/ipm-project/blob/master/userManual.pdf).
 
 Atenção
 -
